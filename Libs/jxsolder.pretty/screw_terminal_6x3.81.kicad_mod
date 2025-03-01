@@ -1,0 +1,158 @@
+(footprint "screw_terminal_6x3.81"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "8.99")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.1 0)
+		(unlocked yes)
+		(layer "Rescue")
+		(uuid "ab069857-a6ed-4c08-966c-ec1c35fbe1d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C69810"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "User.6")
+		(uuid "a2c2bc42-b16d-4388-9a08-6736fddf462a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "516fc595-a3a8-40ec-a440-4e78b78b265e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "075258f2-ead7-4782-83d8-8e7f49f09629")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2a636cb-3b33-44f3-9187-fb17b09853e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.48 -3.7)
+		(end 11.48 3.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "19a7f516-fa0d-4949-9a85-8fb9480e03e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "User.6")
+		(uuid "d2898a4c-5fe7-420b-9556-d6b5c895b171")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -9.525 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "2313f037-9bc1-4a05-9135-d7f636db6b1b")
+	)
+	(pad "2" thru_hole roundrect
+		(at -5.715 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "fffb1a75-6d4c-431b-9c87-64794a056b81")
+	)
+	(pad "3" thru_hole roundrect
+		(at -1.905 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "18623fde-4955-4690-b887-72a9807dbd87")
+	)
+	(pad "4" thru_hole roundrect
+		(at 1.905 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "6dcfabc0-7fee-4ee4-b1d6-879c507e5786")
+	)
+	(pad "5" thru_hole roundrect
+		(at 5.715 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "2571b2b7-d956-4b06-b657-f7af5b77d058")
+	)
+	(pad "6" thru_hole roundrect
+		(at 9.525 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(uuid "b6d75408-7297-4a1e-b845-827c57a81e7c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libs/jxsolder.pretty/3D/screw_terminal_6x3.81.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

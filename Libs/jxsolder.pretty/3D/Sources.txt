@@ -1,0 +1,7 @@
+Amass 24.243 - taken from EasyEDA, modified
+Amass XT60PW-M - footprint is native, slightly modified, 3D model https://grabcad.com/library/xt60pw-m-1
+Alps SKPMAPE010 - my footprint, Alps' 3D model
+PEC12R - https://www.bourns.com/resources/design-tools/engineering-files-list?Folder=PEC12R
+0154007 fuse - taken from AxxSolder project
+1473969 - from te's website
+Capacitor - my own
